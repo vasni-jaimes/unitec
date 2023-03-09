@@ -1,0 +1,26 @@
+@import url('./general.scss');
+
+form {
+    width: 620px;
+    height: auto;
+    box-shadow: 5px 5px 15px -5px #000000;
+    padding: 20px 15px 25px;
+    background: #fff;
+    border-radius: 3px;
+
+    p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 300;
+    }
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+    form {
+        width: 100%;
+    }
+}
